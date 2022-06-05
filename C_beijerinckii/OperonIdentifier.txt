@@ -1,0 +1,6 @@
+Funkce OperonIdentifier slouží k predikci operonových struktur. Při spuštění funkce je potřeba na začátku na funkce 
+"odkomentovat" nebo "zakomentovat" řádek, kde je definovaná proměnná operons v závislosti na používaném vstupním 
+online nástroji. Pokud je jako vstupní soubor zvolen Operon-mappe, je potřeba odkomentovat řádek operons = operons["OM].
+Pokud je vstupem FGENESB, je třeba odkomentovat řádek operons = operons["FGENESB"]. Stejně tak je potřeba odkomentovat 
+řádek s názvem, pod kterým bude uložen výstupní soubor funkce OperonIdnetifier. V případě Operon-mapperu se odkomentuje
+name = "operon_prediction_I_OM.xlsx", v případě FGENESB name = "operon_prediction_I_FGENESB.xlsx".
